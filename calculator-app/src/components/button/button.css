@@ -1,0 +1,98 @@
+button {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.clear-button {
+    background-color: rgb(161, 159, 158);
+    color: black;
+}
+
+.delete-button {
+    background-color: rgb(161, 159, 158);
+    color: black;
+}
+
+.special-operation-button, .semi-special-operation-button {
+    background-color: rgb(161, 159, 158);
+    color: black;
+}
+
+.digit-button, .negative-button {
+    background-color:rgb(255, 127, 63);
+}
+
+.decimal-button {
+    background-color:rgb(255, 127, 63);
+}
+
+.operation-button {
+    background-color: rgb(37, 173, 218)
+}
+
+.equal-button {
+    background-color: rgb(37, 173, 218)
+}
+
+sup {
+    font-size: 12px;
+}
+
+.buttons :first-child {
+    grid-column: 1 / 4;
+    width: 270px;
+    border-radius: 35px;
+}
+
+.memory-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.memory-buttons button {
+    background-color: #ffd700;
+}
+
+
+.dead {
+    background:
+    linear-gradient(0.66turn,
+        rgb(255,127,63)0%,
+        rgb(244, 154, 69)0%,
+        rgb(238,112,179)5%,
+        rgb(240, 120, 150)10%,
+        rgb(244, 154, 69)80%,
+        rgb(255, 127, 63)100%)
+        
+        
+        linear-gradient(
+            0.66turn, 
+            rgba(72, 176, 220, 0.827),
+            rgba(67, 238, 195, 0.618), 
+            rgba(99, 206, 235, 0.658), 
+            rgba(63, 188, 223, 0.449), 
+            rgba(72, 176, 220, 0.827)
+        );
+}

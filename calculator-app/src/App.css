@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  
+    linear-gradient(
+        0.25turn, 
+        rgba(67, 238, 195, 0.618), 
+        rgba(99, 206, 235, 0.658), 
+        rgba(63, 188, 223, 0.449), 
+        rgba(72, 176, 220, 0.827)
+    );
+}
+
+
+
+.dead {
+
+}

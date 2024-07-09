@@ -1,0 +1,8 @@
+.calculator {
+    background-color: aliceblue;
+    border:  none;
+    border-radius: 3%;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+}
